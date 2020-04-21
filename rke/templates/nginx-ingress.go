@@ -241,7 +241,7 @@ spec:
                 - ALL
                 add:
                 - NET_BIND_SERVICE
-            runAsUser: 33
+            runAsUser: 101
           {{- end }}
           env:
             - name: POD_NAME
