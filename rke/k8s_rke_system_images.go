@@ -4325,7 +4325,7 @@ func loadK8sRKESystemImages() map[string]v3.RKESystemImages {
 		"v1.19.8-rancher1-1": {
 			Etcd:                      m("rancher/coreos-etcd:v3.4.13-rancher1"),
 			Kubernetes:                m("rancher/hyperkube:v1.19.8-rancher1"),
-			Alpine:                    m("rancher/rke-tools:v0.1.71"),
+			Alpine:                    m("ryansann/rke-tools:30565"),
 			NginxProxy:                m("rancher/rke-tools:v0.1.71"),
 			CertDownloader:            m("rancher/rke-tools:v0.1.71"),
 			KubernetesServicesSidecar: m("rancher/rke-tools:v0.1.71"),
